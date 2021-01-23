@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 
 function Nav(props) {
     return (
+        <div>
         <div className={'p-3 text-center bg-purple-600'}>
             <ul>
                 <li className={'inline p-5'}>
@@ -15,7 +16,17 @@ function Nav(props) {
                     </li>
             </ul>
         </div>
+
+            <div className="flex justify-center items-center">
+                <div>hey</div>
+
+            </div>
+
+        </div>
+
+       
     );
 }
+
 
 export default Nav;
