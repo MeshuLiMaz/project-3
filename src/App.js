@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from 'antd';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
 
       <div className={'p-10 bg-gray-400'}>
         yay
+        <button type={'primary'}>Yay</button>
       </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
