@@ -2,8 +2,18 @@ import React, {useState, useEffect} from 'react';
 
 function Nav(props) {
     return (
-        <div classname={'p-5'}>
-            this is my Nav bar
+        <div className={'p-3 text-center bg-purple-600'}>
+            <ul>
+                <li className={'inline p-5'}>
+                    <span className="text-xl text-white font-bold">About</span>
+                    </li>
+                <li className={'inline p-5'}>
+                    <span className="text-xl text-white font-bold">To-Do's</span>
+                    </li>
+                <li className={'inline p-5'}>
+                    <span className="text-xl text-white font-bold">Contact</span>
+                    </li>
+            </ul>
         </div>
     );
 }
