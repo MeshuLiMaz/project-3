@@ -4,6 +4,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+
+      <div className={'p-10 bg-gray-400'}>
+        yay
+      </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
