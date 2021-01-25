@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {
     Link,
+    NavLink,
   } from "react-router-dom";
 
 function Nav(props) {
@@ -9,19 +10,19 @@ function Nav(props) {
         <div className={'p-3 text-center bg-purple-600'}>
             <ul>
                 <li className={'inline p-5'}>
-                    <Link to="/about">
+                    <NavLink to="/about" activeClassName="underline text-white">
                         <span className="text-xl text-white font-bold cursor-pointer">About</span>
-                    </Link>
+                    </NavLink>
                     </li>
                 <li className={'inline p-5'}>
-                    <Link to="/ToDos">
-                        <span className="text-xl text-white font-bold underline cursor-pointer">ToDos</span>
-                    </Link>
+                    <NavLink to="/ToDos" activeClassName="underline text-white">
+                        <span className="text-xl text-white font-bold cursor-pointer">ToDos</span>
+                    </NavLink>
                     </li>
                 <li className={'inline p-5'}>
-                    <Link to="/contact">
+                    <NavLink to="/contact" activeClassName="underline text-white">
                         <span className="text-xl text-white font-bold cursor-pointer">Contact</span>
-                    </Link>
+                    </NavLink>
                     </li>
             </ul>
         </div>
