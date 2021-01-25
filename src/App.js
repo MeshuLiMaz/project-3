@@ -9,6 +9,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import About from "./About";
+import ToDos from "./ToDos";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -17,14 +20,14 @@ function App() {
       <Nav />
 
       <Switch>
-          <Route path="/about">
+          <Route path="/About">
             <About />
           </Route>
-          <Route path="/topics">
-            <Topics />
+          <Route path="/ToDos">
+            <ToDos />
           </Route>
-          <Route path="/">
-            <Home />
+          <Route path="/Contact">
+            <Contact />
           </Route>
         </Switch>
       

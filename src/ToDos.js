@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from 'react';
 
-function Contact(props) {
+function ToDos(props) {
     return (
         <div>
-            Contact Page
+            ToDos Page
         </div>
     );
 }
 
-export default Contact;
+export default ToDos;
