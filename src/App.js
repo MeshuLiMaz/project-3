@@ -7,7 +7,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
 } from "react-router-dom";
 import About from "./About";
 import ToDos from "./ToDos";
@@ -16,7 +16,7 @@ import Contact from "./Contact";
 function App() {
   return (
 
-    <div>
+    <Router>
       <Nav />
 
       <Switch>
@@ -33,7 +33,7 @@ function App() {
       
 
 
-    </div>
+    </Router>
     
   );
 }
