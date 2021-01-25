@@ -17,11 +17,6 @@ function Nav(props) {
             </ul>
         </div>
 
-            <div className="flex justify-center items-center">
-                <div>hey</div>
-
-            </div>
-
         </div>
 
        

@@ -3,11 +3,30 @@ import './App.css';
 import Nav from "./Nav";
 // import { Button } from 'antd';
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 function App() {
   return (
 
     <div>
       <Nav />
+
+      <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/topics">
+            <Topics />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
       
 
 
