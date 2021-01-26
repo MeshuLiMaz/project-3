@@ -16,23 +16,38 @@ function ToDos(props) {
                 <ul>
                     <li className={'p-1 border-b-2'}>
                         <input type="checkbox" className={'mr-2'}/>
-                        Do Laundry
+                        <i class="fas fa-pen-fancy">
+                            Do Laundry
+                        </i>
+
                     </li>
                     <li className={'p-1 border-b-2'}>
                         <input type="checkbox" className={'mr-2'}/>
-                        Schedule Doc appt
+                        <i class="fas fa-pen-fancy">
+                            Schedule Doc appt
+                        </i>
+                        
                     </li>
                     <li className={'p-1 border-b-2'}>
                         <input type="checkbox" className={'mr-2'}/>
-                        Schedule Wedding food tasting
+                        <i class="fas fa-pen-fancy">
+                            Schedule Wedding food tasting
+                        </i>
+
                     </li>
                     <li className={'p-1 border-b-2'}>
                         <input type="checkbox" className={'mr-2'}/>
-                        Call Mom to set Wedding Dress shop date
+                        <i class="fas fa-pen-fancy">
+                            Call Mom to set Wedding Dress shop date
+                        </i>
+                        
                     </li>
                     <li className={'p-1 border-b-2'}>
                         <input type="checkbox" className={'mr-2'}/>
-                        Pickup pup from Groomer at 4pm
+                        <i class="fas fa-pen-fancy">
+                            Pickup pup from Groomer at 4pm
+                        </i>
+                        
                     </li>
 
                 </ul>
